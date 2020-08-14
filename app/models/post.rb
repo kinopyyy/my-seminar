@@ -1,4 +1,3 @@
 class Post < ApplicationRecord
-  varidate :title, :content, :price, presence: true
- 
+  validates :title, :content, :price, presence: true
 end
