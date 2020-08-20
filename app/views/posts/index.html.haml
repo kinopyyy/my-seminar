@@ -5,6 +5,8 @@
     .content__right
       .content__right__top
         = link_to post.title, post_path(post.id), class: "content__right__top--title"
+        = post.price
+        円
       .content__right__bottom
         .content__right__bottom--date
           = post.created_at
